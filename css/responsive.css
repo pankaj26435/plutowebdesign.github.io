@@ -1,0 +1,317 @@
+@media (max-width:1366px) {
+    .nav_sec:before {
+        width: 10%;
+    }
+    /*.service_sec .inner {
+        padding: 0 10px;
+    }*/
+    .testimonial_sec .inner {
+        padding: 0 10px;
+    }    
+}
+
+@media (max-width:1124px) and (min-width: 992px) {
+    .person-img {
+        float: none; 
+        margin: 0 auto;
+        width: 85%;
+    }
+}
+
+@media (max-width:1200px) {
+    .container {
+        width: 96%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .navbar-brand>img {
+        width: 150px;
+    }    
+    .nav_sec .navbar-default .navbar-nav>li>a {
+        padding: 20px 0 29px 0;
+    }
+    .slider_sec .inner h1 {
+        font-size: 24px;
+        line-height: 30px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .slider_sec .inner h2 {
+        font-size: 32px;
+    }
+    .slider_sec .inner h3 {     
+        margin: 10px 0;
+        padding: 5px 10px;
+        background: none;
+        background-color: #1a4afb;
+        font-size: 20px;
+    }
+    .pogoSlider--navBottom .pogoSlider-nav, .pogoSlider--navTop .pogoSlider-nav {
+        right: -40px!important;
+        left: auto!important;
+        bottom: 50px!important;
+    }
+    .cap_info .inner p {
+        margin-top: 0;
+    }
+    .welcome_sec h2 span {
+        font-size: 20px;
+    }
+    .welcome_sec .detail {
+        padding: 0;
+    }    
+}
+
+
+/************ Main **************/
+
+@media (max-width: 991px) {
+    .welcome_sec {
+        padding: 40px 0;
+    }
+    .welcome_sec h2 {
+        font-size: 26px;
+    }
+    .service_sec {
+        padding: 40px 0;
+    }
+    .global_title {
+        font-size: 24px;
+    }    
+    .testimonial_sec {
+        padding: 40px 0;
+    }    
+    .nav_sec::before {
+        display: none;
+    }
+    .navbar-right {
+        margin: 0;
+    }    
+    .nav_sec .navbar-default .navbar-nav>li {
+        margin-left: 15px;
+    }
+    .nav_sec .navbar-default .navbar-nav>li>a {
+        font-size: 13px;
+    }
+    .slider_sec .inner h2 {
+        font-size: 26px;
+    }
+    .footer_detail {
+        padding: 10px 0;
+    }
+    .inner_banner {
+        margin-bottom: 40px;
+    }
+    .service_sec2 {
+        padding: 0 0;
+    }
+    .footer-map {
+        float: left;
+        width: 100%;
+        margin-top: 35px;
+        margin-bottom: 70px;
+    }
+    .vertical-logo {
+        float: none;        
+        display: none;
+    }
+    .mobile-side-title {
+        font-size: 30px!important;
+        z-index: 1;
+        position: relative;
+        line-height: 55px;
+        text-transform: capitalize!important;
+        color: #1a4afb!important;
+        font-weight: bold!important;
+        text-align: center;
+        font-style: italic;
+        margin: 0 0 20px 0;
+    }
+    h3.service-title {
+        position: relative;        
+        margin-top: 0;
+        text-align: center;
+        z-index: 1;
+    }
+    .pogoSlider--navBottom .pogoSlider-nav, .pogoSlider--navTop .pogoSlider-nav {
+        bottom: 10px!important;
+    }
+    .welcome_sec:after {
+        display: none;
+    }
+    .person-img {
+        float: none; 
+        margin: 0 auto;
+    }
+    .why-trust-icon li:nth-child(even).icon-circle:before, .why-trust-icon li:nth-child(even).icon-circle:after {
+        display: none;
+    }
+    .benefit-sec .card {
+        margin-bottom: 20px;
+    }
+    ul.counter-main {    
+        width: 100%;
+    }
+    .testimonial_sec:after {
+        display: none;
+    }
+    .footer_detail:after { display: none; }
+    .testimonial_sec .detail p {     
+        font-size: 14px;        
+        line-height: 24px;
+    }
+    .testimonial_sec .detail {
+        width: 100%;
+    }
+    .contact-inner {
+        width: 100%;
+    }
+    .nav_sec .navbar-default .navbar-nav>li:last-child>a:before {
+        display: none;
+    }
+    .nav_sec .navbar-default .navbar-nav>li:last-child>a {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    html {
+        -webkit-text-size-adjust: none;
+    }
+    .pogoSlider--navBottom .pogoSlider-nav, .pogoSlider--navTop .pogoSlider-nav {
+        bottom: 10px!important;
+        left: 50%!important;
+        transform: translateX(-50%)!important;
+        right: auto!important;
+    }
+    .pogoSlider-nav-btn {
+        width: 10px!important;
+        height: 10px!important;
+    }
+    .container {
+        width: 93%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .navbar-default .navbar-toggle {
+        margin: 14px 0 0 0;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #000;
+        width: 30px;
+        height: 4px;
+    }
+    .navbar-toggle {
+        border: none;
+        background: transparent !important;
+        margin-bottom: 0;
+    }
+    .navbar-toggle:hover {
+        background: transparent !important;
+    }
+    .navbar-toggle .icon-bar {
+        width: 22px;
+        transition: all 0.2s;
+    }
+    .navbar-toggle .top-bar {
+        transform: rotate(45deg);
+        transform-origin: 10% 10%;
+    }
+    .navbar-toggle .middle-bar {
+        opacity: 0;
+    }
+    .navbar-toggle .bottom-bar {
+        transform: rotate(-45deg);
+        transform-origin: 10% 90%;
+    }
+    .navbar-toggle.collapsed .top-bar {
+        transform: rotate(0);
+    }
+    .navbar-toggle.collapsed .middle-bar {
+        opacity: 1;
+    }
+    .navbar-toggle.collapsed .bottom-bar {
+        transform: rotate(0);
+    }
+    .nav_sec .navbar-nav {
+        float: none;
+    }
+    .nav_sec .navbar-default .navbar-nav>li {
+        margin: 1px 0;
+    }
+    .nav_sec .navbar-default .navbar-nav>li>a {
+        padding: 10px 0;
+    }
+    .nav_sec {
+        padding: 10px 0;
+    }
+    .navbar-brand>img {
+        width: 200px;
+    }    
+    .testimonial_sec .owl-carousel.owl-drag .owl-item {
+        padding: 10px 0 20px 0;
+    }
+    .testimonial_sec .detail {
+        clear: both;
+        margin-top: 30px;
+        padding: 0;
+    }
+    .testimonial_sec .owl-carousel .owl-dot.active span {
+        background: #fff;
+    }    
+    .slider_sec .inner h1 {
+        font-size: 15px;        
+        line-height: 20px;
+        margin-bottom: 5px;
+    }
+    .slider_sec .inner h3 {
+        font-size: 14px;
+        margin: 0;
+        padding: 3px 7px;
+    }
+    .cap_info .inner p {
+        font-size: 12px;
+        line-height: 16px;
+        margin-top: 3px;
+        margin-bottom: 5px;
+    }    
+    .slider_sec .inner h2 {
+        font-size: 16px;
+    }
+    html {
+        font-size: .7px;
+    }
+    .inner_banner {
+        padding: 70px 0px;
+    }    
+}
+
+
+/************ iphone **************/
+
+@media (max-width:600px) {
+    html {
+        -webkit-text-size-adjust: none;
+    }
+    .container {
+        width: 91%;
+    }
+    .pogoSlider {
+        padding-bottom: 63% !important;
+    }
+}
+
+@media (max-width: 500px) {
+    ul.counter-main {    
+        flex-direction: column;
+    }
+    .counter-main li {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width:471px) {
+    ul.work-list li:after {
+        display: none;
+    }
+}

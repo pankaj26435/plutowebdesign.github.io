@@ -1,0 +1,30 @@
+$(document).ready(function () {
+
+	$('#js-main-slider').pogoSlider({
+		autoplay: true,
+		autoplayTimeout: 5000,
+		displayProgess: true,
+		preserveTargetSize: true,
+		targetWidth: 1000,
+		targetHeight: 350,
+		responsive: true,				
+	}).data('plugin_pogoSlider');
+
+	var transitionDemoOpts = {
+		displayProgess: false,
+		generateNav: false,
+		generateButtons: false
+	}
+
+
+});
+
+
+// Counter
+
+$(document).ready(function() {
+	$('.counter').counterUp({
+	    delay: 10,
+	    time: 1000
+	});  
+});
